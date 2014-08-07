@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Brick is <superb-word></superb-word>",
+    "packageVersion": "0.0.0",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "dotch",
+    "githubRepository": "brick-presentation"
+  }
+}

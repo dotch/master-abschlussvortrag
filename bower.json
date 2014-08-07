@@ -1,0 +1,12 @@
+{
+  "name": "brick-is-superb-wordsuperb-word",
+  "version": "0.0.0",
+  "dependencies": {
+    "reveal.js": "~2.6.1"
+  },
+  "devDependencies": {
+    "superb-word": "~0.0.2",
+    "platform": "polymer/platform#~0.3.4",
+    "brick": "mozbrick/brick#master"
+  }
+}

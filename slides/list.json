@@ -5,17 +5,47 @@
             "data-background": "white"
         }
     },
-    "motivation.html",
-    "what-1.html",
-    "what-2.html",
+    {
+        "filename": "motivation.html"
+    },
+    {
+        "filename": "brick-1.html",
+        "attr": {
+            "data-background": "#731D68"
+        }
+    },
+    "brick-2.html",
+    "brick-3.html",
+    {
+        "filename": "wc-0.html",
+        "attr": {
+            "data-background": "#1D6872"
+        }
+    },
     "wc-1.html",
     "wc-2.html",
     "wc-3.html",
+    {
+        "filename": "brick-cont-0.html",
+        "attr": {
+            "data-background": "#005BC0"
+        }
+    },
     "brick-cont-1.html",
     "brick-cont-2.html",
     "brick-cont-3.html",
-    "brick-cont-4.html",
+    {
+        "filename": "brick-cont-4.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
     "brick-cont-5.html",
     "brick-cont-6.html",
-    "end.html"
+    {
+        "filename": "end.html",
+        "attr": {
+            "data-background": "#1D6872"
+        }
+    }
 ]

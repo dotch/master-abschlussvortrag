@@ -17,21 +17,69 @@
 
         <script src="bower_components/platform/platform.js"></script>
 
+        <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+
         <link rel="import" href="bower_components/superb-word/dist/superb-word.html">
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css" id="highlight-theme">
 
         <style>
-             .superb {
-                font-size: 8px;
-                position: fixed;
-                bottom: 20px;
-                color: white;
-                width: 200px;
-                left: calc(50% - 100px);
-                text-align: center;
+            * {
+                line-height: 1.4em;
             }
+            .text-center {
+                text-align: center !important;
+            }
+            @keyframes funky {
+              from {
+                transform: translateY(0%) rotate(0deg) ;
+              }
+              50% {
+                transform: translateY(-300%) rotate(180deg);
+              }
+              to {
+                transform: translateY(0%) rotate(360deg) ;
+              }
+            }
+            @keyframes funkyy {
+              from {
+                transform: translateY(0%) rotate(0deg) ;
+              }
+              50% {
+                transform: translateY(-250%) rotate(0deg);
+              }
+              to {
+                transform: translateY(0%) rotate(360deg) ;
+              }
+            }
+            @keyframes funkyyy {
+              from {
+                transform: translateY(0%) rotate(0deg) ;
+              }
+              50% {
+                transform: translateY(-275%) rotate(0deg);
+              }
+              to {
+                transform: translateY(0%) rotate(360deg) ;
+              }
+            }
+            .funky-1 {
+              animation: funky 0.7s ease-in-out infinite;
+            }
+            .funky-2 {
+              animation: funkyy 0.7s ease infinite;
+            }
+            .funky-3 {
+              animation: funkyyy 0.9s ease-in-out infinite;
+            }
+            .funky-4 {
+              animation: funky 0.8s ease-out infinite;
+            }
+            .funky-5 {
+              animation: funkyy 0.9s ease-in infinite;
+            }
+
         </style>
 
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
@@ -51,9 +99,6 @@
     </head>
 
     <body>
-        <div class="superb">
-            Brick is <superb-word></superb-word>.
-        </div>
 
         <div class="reveal">
 

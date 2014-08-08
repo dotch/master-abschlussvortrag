@@ -1,5 +1,45 @@
-<h3>example</h3>
+<h3 style="color: #404145; text-shadow: none">example</h3>
+<br>
+<brick-deck selected-index="0" style="height: 5em;">
+    <brick-card selected id="first">
+<pre><code><brick-tabbar>
+    <brick-tabbar-tab selected>one</brick-tabbar-tab>
+    <brick-tabbar-tab>two</brick-tabbar-tab>
+    <brick-tabbar-tab>three</brick-tabbar-tab>
+</brick-tabbar>
+</code></pre>
+    </brick-card>
+    <brick-card id="second">
+<pre><code><brick-tabbar>
+    <brick-tabbar-tab>one</brick-tabbar-tab>
+    <brick-tabbar-tab selected>two</brick-tabbar-tab>
+    <brick-tabbar-tab>three</brick-tabbar-tab>
+</brick-tabbar>
+</code></pre>
+    </brick-card>
+    <brick-card id="third">
+<pre><code><brick-tabbar>
+    <brick-tabbar-tab>one</brick-tabbar-tab>
+    <brick-tabbar-tab>two</brick-tabbar-tab>
+    <brick-tabbar-tab selected>three</brick-tabbar-tab>
+</brick-tabbar>
+</code></pre>
+    </brick-card>
+</brick-deck>
 
-tabbar markup and demo
-
-visualize attr
+<style>
+    brick-tabbar {
+        font-family: "Fira Sans";
+        font-size: 17px;
+        width: 90%;
+        margin: auto;
+    }
+    brick-tabbar-tab {
+        height: 45px;
+    }
+</style>
+<brick-tabbar>
+    <brick-tabbar-tab target="first" selected>one</brick-tabbar-tab>
+    <brick-tabbar-tab target="second">two</brick-tabbar-tab>
+    <brick-tabbar-tab target="third">three</brick-tabbar-tab>
+</brick-tabbar>

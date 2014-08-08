@@ -1,42 +1,46 @@
 <h3>Web Components</h3>
-<br>
-<div class="fragment" data-fragment-index="1">
-    <a href="https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/custom/index.html">Custom Elements:</a> create new HTML Elements.
-</div>
-<div class="fragment" data-fragment-index="4">
-    <a href="https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html">Shadow Dom:</a> encapsulate styles and hide DOM.
-</div>
-<div class="fragment" data-fragment-index="5">
-    <a href="http://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/templates/index.html">HTML Templates:</a> native templates, yay!
-</div>
-<div class="fragment" data-fragment-index="8">
-    <a href="http://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/templates/index.html">HTML Imports:</a> package it and import it!
-</div>
+<div class="webcomp">
+    <ul>
+    <li class="fragment spaced" data-fragment-index="1">
+        <a href="https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/custom/index.html">Custom Elements:</a> create new HTML Elements.
+    </li>
+    <li class="fragment spaced" data-fragment-index="4">
+        <a href="https://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/shadow/index.html">Shadow Dom:</a> encapsulate styles and hide DOM.
+    </li>
+    <li class="fragment spaced" data-fragment-index="5">
+        <a href="http://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/templates/index.html">HTML Templates:</a> native templates, yay!
+    </li>
+    <li class="fragment spaced" data-fragment-index="8">
+        <a href="http://dvcs.w3.org/hg/webcomponents/raw-file/tip/spec/templates/index.html">HTML Imports:</a> package it and import it!
+    </li>
+    </ul>
 
 
-<div class="fragment fade-in" data-fragment-index="2">
-    <div class="fragment fade-out" data-fragment-index="3">
-<pre><code>document.registerElement('superb-word', {
-    prototype: SuperbPrototype
-});
-</code></pre>
-<pre><code>Custom Elements are &lt;superb-word&gt;&lt;/superb-word&gt;!
-</code></pre>
-        <br>
-        Custom Elements are <superb-word></superb-word>!
+    <div class="fragment fade-in" data-fragment-index="2">
+        <div class="fragment fade-out" data-fragment-index="3">
+    <pre><code>document.registerElement('superb-word', {
+        prototype: SuperbPrototype
+    });
+    </code></pre>
+    <pre><code>Custom Elements are &lt;superb-word&gt;&lt;/superb-word&gt;!
+    </code></pre>
+            <br>
+            Custom Elements are <superb-word></superb-word>!
+        </div>
     </div>
-</div>
 
-<div class="fragment fade-in" data-fragment-index="6" style="margin-top: -50px">
-    <div class="fragment fade-out" data-fragment-index="7">
-<pre class="text-center"><code>&lt;template&gt;&lt;/template&gt;</code></pre>
+    <div class="fragment fade-in" data-fragment-index="6" style="margin-top: -50px">
+        <div class="fragment fade-out" data-fragment-index="7">
+    <pre class="text-center"><code>&lt;template&gt;&lt;/template&gt;</code></pre>
+        </div>
     </div>
-</div>
 
-<div class="fragment fade-in" data-fragment-index="9" style="margin-top: -50px">
-    <div class="fragment fade-out" data-fragment-index="10">
-<pre class="text-center"><code>&lt;link rel="import" href="file.html"&gt;</code></pre>
+    <div class="fragment fade-in" data-fragment-index="9" style="margin-top: -50px">
+        <div class="fragment fade-out" data-fragment-index="10">
+    <pre class="text-center"><code>&lt;link rel="import" href="file.html"&gt;</code></pre>
+        </div>
     </div>
+
 </div>
 
 <aside class="notes">
@@ -49,6 +53,7 @@
         <li>content inert and hidden (scripts dont run, request dont get fired) until clonded and appended</li>
         <li>shadow dom:</li>
         <li>scoping, resusability, composablibilty. styles dont leak out, use ids as you please (maybe not with the polyfill)</li>
+        <li>not intended for security</li>
         <li>Html imports:</li>
         <li>wrap it all (html css js), distribute it, import it as a single url</li>
         <li>basic dependancy management</li>

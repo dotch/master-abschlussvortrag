@@ -1,16 +1,22 @@
-<h3>using brick</h3>
+<h3>Using Brick</h3>
+<ul>
+    <li>Get Brick (bower or zip-files).</li>
+    <li>HTMLImport it.</li>
+    <li>Use it.</li>
+</ul>
 
-<brick-deck>
-    <brick-card id="first">
-    </brick-card>
-    <brick-card id="second">
-    </brick-card>
-    <brick-card id="third">
-    </brick-card>
-</brick-deck>
 
+<pre><code data-trim>
+<!-- import the polyfill -->
+<script src="platform.js"></script>
+
+<!-- import brick -->
+<link rel="import" href="brick.html">
+
+<!-- use the elements -->
 <brick-tabbar>
-    <brick-tabbar-tab target="first"><i></i></brick-tabbar-tab>
-    <brick-tabbar-tab target="first"><i></i></brick-tabbar-tab>
-    <brick-tabbar-tab target="first"><i></i></brick-tabbar-tab>
+    <brick-tabbar-tab>1</brick-tabbar-tab>
+    <brick-tabbar-tab>2</brick-tabbar-tab>
+    <brick-tabbar-tab>3</brick-tabbar-tab>
 </brick-tabbar>
+</code></pre>

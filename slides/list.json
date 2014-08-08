@@ -1,5 +1,10 @@
 [
-    "index.html",
+    {
+        "filename": "index.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
     "motivation.html",
     "what-1.html",
     "what-2.html",
@@ -10,5 +15,7 @@
     "brick-cont-2.html",
     "brick-cont-3.html",
     "brick-cont-4.html",
-    "brick-cont-5.html"
+    "brick-cont-5.html",
+    "brick-cont-6.html",
+    "end.html"
 ]

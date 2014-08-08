@@ -13,6 +13,7 @@ var rename = require('gulp-rename');
 var rm = require('gulp-rm');
 var stylus = require('gulp-stylus');
 var vulcanize = require('gulp-vulcanize');
+var prefix = require('gulp-autoprefixer');
 
 var paths = {
   'main': 'src/brick-tabbar.html',
@@ -35,12 +36,14 @@ gulp.task('styles', function() {
   return gulp.src(paths.stylesheets)
     .pipe(stylus())
     .pipe(concat('brick-tabbar.css'))
+    .pipe(prefix("last 2 versions", "Firefox >= 18", "ie >= 10"))
     .pipe(gulp.dest('src'));
 });
 
 gulp.task('themes', function() {
   return gulp.src(paths.themes)
     .pipe(stylus())
+    .pipe(prefix("last 2 versions", "Firefox >= 18", "ie >= 10"))
     .pipe(gulp.dest('src/themes'));
 });
 
@@ -52,7 +55,7 @@ gulp.task('rename', ['vulcanize'], function() {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('clean', ['vulcanize', 'rename'], function() {
+gulp.task('clean', ['dist'], function() {
   gulp.src(['src/*.css', 'src/themes/**/*.css'])
     .pipe(rm());
 });
@@ -72,7 +75,7 @@ gulp.task('vulcanize', ['styles','themes'], function() {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('dist', ['vulcanize'], function () {
+gulp.task('dist', ['rename'], function () {
   return gulp.src('dist/*.local.html')
     .pipe(bowerDist())
     .pipe(rename(function(path) {
@@ -82,7 +85,7 @@ gulp.task('dist', ['vulcanize'], function () {
 });
 
 // build scripts and styles
-gulp.task('build', ['lint','styles','themes','vulcanize', 'rename','dist','clean']);
+gulp.task('build', ['lint','styles','themes','vulcanize','rename','dist','clean']);
 
 gulp.task('connect', function() {
   connect.server({

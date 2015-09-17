@@ -1,52 +1,194 @@
 [
     {
-        "filename": "index.html",
+        "filename": "intro/index.html",
         "attr": {
             "data-background": "white"
         }
     },
     {
-        "filename": "motivation.html"
-    },
-    {
-        "filename": "brick-1.html",
+        "filename": "intro/motivation.html",
         "attr": {
             "data-background": "#731D68"
         }
     },
-    "brick-2.html",
-    "brick-3.html",
     {
-        "filename": "wc-0.html",
-        "attr": {
-            "data-background": "#1D6872"
-        }
-    },
-    "wc-1.html",
-    "wc-2.html",
-    "wc-3.html",
-    {
-        "filename": "brick-cont-0.html",
-        "attr": {
-            "data-background": "#005BC0"
-        }
-    },
-    "brick-cont-1.html",
-    "brick-cont-2.html",
-    "brick-cont-3.html",
-    {
-        "filename": "brick-cont-4.html",
+        "filename": "intro/idea.html",
         "attr": {
             "data-background": "white"
         }
     },
-    "brick-cont-4.5.html",
-    "brick-cont-5.html",
-    "brick-cont-6.html",
     {
-        "filename": "end.html",
+        "filename": "intro/benefits.html",
         "attr": {
-            "data-background": "#1D6872"
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "eye-tracking/eye-tracking-1.html",
+        "attr": {
+            "data-background": "#731D68"
+        }
+    },
+    {
+        "filename": "eye-tracking/eye-tracking-2.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "eye-tracking/eye-tracking-3.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "eye-tracking/eye-tracking-4.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "eye-tracking/eye-tracking-5.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "eye-tracking/eye-tracking-6.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "eye-tracking/eye-tracking-7.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "eye-tracking/eye-tracking-8.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "questionnaire/questionnaires-1.html",
+        "attr": {
+            "data-background": "#731D68"
+        }
+    },
+    {
+        "filename": "questionnaire/questionnaires-2.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "questionnaire/questionnaires-3.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "questionnaire/questionnaires-4.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "combine/combine-1.html",
+        "attr": {
+            "data-background": "#731D68"
+        }
+    },
+    {
+        "filename": "combine/combine-2.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "combine/combine-3.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "combine/combine-4.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "gesis/initial-data.html",
+        "attr": {
+            "data-background": "#731D68"
+        }
+    },
+    {
+        "filename": "gesis/gesis-1.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "data-analysis/data-analysis-1.html",
+        "attr": {
+            "data-background": "#731D68"
+        }
+    },
+    {
+        "filename": "data-analysis/data-analysis-2.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "data-analysis/data-analysis-4.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "data-analysis/data-analysis-5.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "prototype/prototype-1.html",
+        "attr": {
+            "data-background": "#731D68"
+        }
+    },
+    {
+        "filename": "prototype/prototype-2.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "prototype/prototype-3.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "evaluation/evaluation-1.html",
+        "attr": {
+            "data-background": "#731D68"
+        }
+    },
+    {
+        "filename": "evaluation/evaluation-2.html",
+        "attr": {
+            "data-background": "white"
+        }
+    },
+    {
+        "filename": "summary.html",
+        "attr": {
+            "data-background": "white"
         }
     }
 ]

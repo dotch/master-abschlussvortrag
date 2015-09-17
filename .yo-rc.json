@@ -1,6 +1,6 @@
 {
   "generator-reveal": {
-    "presentationTitle": "Brick is <superb-word></superb-word>",
+    "presentationTitle": "Presentation",
     "packageVersion": "0.0.0",
     "useSass": false,
     "deployToGithubPages": true,
